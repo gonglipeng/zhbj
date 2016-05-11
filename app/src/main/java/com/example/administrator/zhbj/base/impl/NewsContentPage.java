@@ -37,7 +37,7 @@ public class NewsContentPage extends BaseContentPage {
         textView.setGravity(Gravity.CENTER);
 
         flBaseFragment.addView(textView);
-        tv_title.setText("新闻");
+        tv_title.setText("新闻中心");
 
         getHttpJson();
     }
