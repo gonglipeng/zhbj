@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.administrator.zhbj.view.NoScrollViewPage
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/rg_bottom_tab">
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rd_home"
+            style="@style/Bottom_Tab_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="首页"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rd_news"
+            style="@style/Bottom_Tab_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tab_news_selector"
+            android:text="新闻" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rd_smart"
+            style="@style/Bottom_Tab_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tab_smart_selector"
+            android:text="智慧服务" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rd_gov"
+            style="@style/Bottom_Tab_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tab_gov_selector"
+            android:text="政务" />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rd_setting"
+            style="@style/Bottom_Tab_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/tab_setting_selector"
+            android:text="设置" />
+    </RadioGroup>
+</LinearLayout>

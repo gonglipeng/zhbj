@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">智慧北京</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_guide">GuideActivity</string>
+
+    <string name="startMain">开始一段神奇的旅程</string>
+</resources>
