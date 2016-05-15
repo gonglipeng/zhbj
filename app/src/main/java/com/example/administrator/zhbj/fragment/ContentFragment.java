@@ -134,4 +134,11 @@ public class ContentFragment extends BaseFragment implements RadioGroup.OnChecke
             container.removeView(baseContentPages.get(position).view);
         }
     }
+
+    /**
+     * 获取新闻页面
+     */
+    public NewsContentPage getNewsContentPage() {
+        return (NewsContentPage) baseContentPages.get(1);
+    }
 }
